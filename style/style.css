@@ -25,13 +25,13 @@ aside {
   display: flex;
   flex-direction: column;
   width: 55px;
-  height: 38vh;
+  height: 45vh;
   border-radius: 30px;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 15px;
-  top: 32%;
+  top: 28%;
   background-color: rgba(75, 75, 75, 0.739);
 }
 aside a {
@@ -52,7 +52,7 @@ aside a:hover {
 
 aside a::after {
   content: "";
-  height: 20px;
+  min-height: 20px;
   width: 0px;
   background-color: #383838;
   position: absolute;
@@ -65,7 +65,7 @@ aside a::after {
   place-items: center;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  padding-bottom: 0.5rem;
+
   opacity: 0;
 }
 .home_menu::after {
@@ -74,8 +74,8 @@ aside a::after {
 .about_menu::after {
   content: "About";
 }
-.resume_menu::after {
-  content: "Resume";
+.education_menu::after {
+  content: "Education";
 }
 .skills_menu::after {
   content: "Skills";
@@ -83,8 +83,14 @@ aside a::after {
 .contact_menu::after {
   content: "Contact";
 }
-.testimonial_menu::after {
-  content: "Testimonial";
+.achievements_menu::after {
+  content: "Achievements";
+}
+.projects_menu::after {
+  content: "Projects";
+}
+.club_menu::after {
+  content: "Club Activities";
 }
 
 aside a:hover::after {
@@ -263,7 +269,7 @@ h4 {
     display: flex;
     margin: auto;
     flex-direction: row;
-    width: 90vw;
+    width: 95vw;
     height: 60px;
     border-radius: 30px;
     justify-content: space-between;
@@ -273,7 +279,9 @@ h4 {
     margin-bottom: 3rem;
     background-color: rgb(75, 75, 75);
   }
-  aside a {
-    color: #28e98c !important;
+
+  aside a:hover::after {
+    width: 0;
+    opacity: 0;
   }
 }

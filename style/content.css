@@ -135,7 +135,8 @@
   height: 220px;
   object-fit: contain;
   background-color: rgba(62, 62, 62, 0.302);
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 0.5rem;
 }
 
 .achievementCard h3 {
@@ -156,6 +157,7 @@
   display: grid;
   grid-template-columns: 10fr 1fr;
   transition: all 0.2s;
+  margin-bottom: 1rem;
 }
 .clubCard:hover {
   border: 1px solid #28e98c;
@@ -273,4 +275,15 @@ textarea {
     border-radius: 10px;
     margin-bottom: 0.5rem;
   }
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.animate-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
 }

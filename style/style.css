@@ -257,12 +257,12 @@ h4 {
     padding: 2rem;
     margin: auto;
     justify-content: space-around;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
   }
 
   .intro img {
     width: 100%;
-    height: auto;
+    height: 300px;
     object-fit: cover;
     border-radius: 30px;
   }

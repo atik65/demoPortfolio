@@ -142,7 +142,7 @@ aside a:hover::after {
   color: #ffffff;
 }
 
-.contact h3,
+.contact h5,
 h4 {
   margin-bottom: 0.5rem;
 }
@@ -257,6 +257,14 @@ h4 {
     padding: 2rem;
     margin: auto;
     justify-content: space-around;
+    padding-bottom: 4rem;
+  }
+
+  .intro img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 30px;
   }
 
   /* right side design */

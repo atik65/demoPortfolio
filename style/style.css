@@ -256,6 +256,7 @@ h4 {
     border-radius: 30px;
     padding: 2rem;
     margin: auto;
+    justify-content: space-around;
   }
 
   /* right side design */
